@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Header from './components/header'
 import Profile from './components/profile'
 import Cards from './components/cards'
+import Footer from './components/footer'
 import './App.css'
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
       <Header />
       <Profile onNewPost={handleAddNewPost} />
       <Cards Images_data={Images_data} />
+      <Footer />
     </>
   )
 }
